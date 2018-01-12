@@ -1,0 +1,24 @@
+*{
+	border: 1px solid black;
+}
+
+h1, p{
+	text-align: center;
+}
+
+.box{
+	border: 2px solid red;
+	width: 150px;
+	height: 75px;
+}
+
+#bottomhalf{
+	margin: 10px auto;
+	width: 500px;
+	display: flex;
+}
+
+#right{
+	margin-left: 190px;
+}
+
