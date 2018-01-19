@@ -25,29 +25,33 @@
 		<div>
 			<div class="box">
 				<h2>Farm</h2>
-				<p>(earns 10-20 gold)</p>
-				<form method="POST" action="/farm">
+				<p>(earns 10 - 20 gold)</p>
+				<form method="POST" action="/getMoney">
+					<input type="hidden" name="location" value="farm">
 					<input type="submit" value="Find Gold!">
 				</form>
 			</div>
 			<div class="box">
 				<h2>Cave</h2>
-				<p>(earns 5-10 gold)</p>
-				<form method="POST" action="/cave">
+				<p>(earns 5 - 10 gold)</p>
+				<form method="POST" action="/getMoney">
+					<input type="hidden" name="location" value="cave">
 					<input type="submit" value="Find Gold!">
 				</form>
 			</div>
 			<div class="box">
 				<h2>House</h2>
-				<p>(earns 2-5 gold)</p>
-				<form method="POST" action="/house">
+				<p>(earns 2 - 5 gold)</p>
+				<form method="POST" action="/getMoney">
+					<input type="hidden" name="location" value="house">
 					<input type="submit" value="Find Gold!">
 				</form>
 			</div>
 			<div class="box">
 				<h2>Casino</h2>
-				<p>(earns/takes 0-50 gold)</p>
-				<form method="POST" action="/casino">
+				<p>(earns/takes -50 - 50 gold)</p>
+				<form method="POST" action="/getMoney">
+					<input type="hidden" name="location" value="casino">
 					<input type="submit" value="Find Gold!">
 				</form>
 			</div>
